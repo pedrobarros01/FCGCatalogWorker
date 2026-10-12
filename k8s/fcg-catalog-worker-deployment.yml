@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: fcg-catalog-worker-deployment
+  name: fcg-catalog-worker
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: fcg-catalog-worker-deployment
+      app: fcg-catalog-worker
   template:
     metadata:
       labels:
-        app: fcg-catalog-worker-deployment
+        app: fcg-catalog-worker
     spec:
       containers:
       - name: fcg-catalog-worker-container

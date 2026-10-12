@@ -14,7 +14,6 @@
 <Folder Name="/k8s/">
     <File Path="k8s/fcg-catalog-worker-configmap.yml" />
     <File Path="k8s/fcg-catalog-worker-deployment.yml" />
-    <File Path="k8s/fcg-catalog-worker-secret.yml" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/CommonTestUtilities/CommonTestUtilities.csproj" Id="4c143416-5c74-4b26-962d-b36b4f2f39e0" />
